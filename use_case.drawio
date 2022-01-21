@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T20:22:30.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="15.5.8" etag="TNejH6mtMmJHW0oU0XTi" type="github"><diagram id="A_DIPcTSvIDffPGMHXBD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-21T20:57:36.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="yyZ2YoGqIKbio_nxRD9F" version="15.5.8" type="github">
+  <diagram id="A_DIPcTSvIDffPGMHXBD" name="Page-1">
+    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-10" value="tforcov" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="610" y="60" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-1" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="165" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-4" value="Instrumentovat program pro měření kritérií pokrytí" style="ellipse;whiteSpace=wrap;html=1;spacing=20;" vertex="1" parent="1">
+          <mxGeometry x="625" y="70" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-5" value="Vyhodnotit splnění kritérií pokrytí z logů" style="ellipse;whiteSpace=wrap;html=1;spacing=20;" vertex="1" parent="1">
+          <mxGeometry x="625" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-12" value="Spustit testy nad instrumentovaným programem" style="ellipse;whiteSpace=wrap;html=1;align=center;spacing=20;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-15" value="Zjistit splnění kritérií pokrytí testů nad testovaným programem" style="ellipse;whiteSpace=wrap;html=1;align=center;spacing=20;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-16" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="qeYW3MDQMWHEB59Xtyxx-1" target="qeYW3MDQMWHEB59Xtyxx-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="180" as="sourcePoint" />
+            <mxPoint x="460" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="qeYW3MDQMWHEB59Xtyxx-15" target="qeYW3MDQMWHEB59Xtyxx-12">
+          <mxGeometry y="15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="180" as="sourcePoint" />
+            <mxPoint x="460" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-18" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="qeYW3MDQMWHEB59Xtyxx-15" target="qeYW3MDQMWHEB59Xtyxx-5">
+          <mxGeometry x="0.3263" y="16" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="205" as="sourcePoint" />
+            <mxPoint x="450" y="205" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeYW3MDQMWHEB59Xtyxx-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="qeYW3MDQMWHEB59Xtyxx-15" target="qeYW3MDQMWHEB59Xtyxx-4">
+          <mxGeometry x="-0.068" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="215" as="sourcePoint" />
+            <mxPoint x="460" y="215" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
