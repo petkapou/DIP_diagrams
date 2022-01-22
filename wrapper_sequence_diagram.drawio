@@ -1,1 +1,207 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T10:36:26.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="dQXmOnM2uLJflnTf2CC3" version="16.4.5" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-22T11:14:50.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VMJJfKquKFgGJAvPMhMg" version="16.4.5" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-1" value=":Uživatel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="O2XLXlmrljuVdYfjU7Fe-1">
+          <mxGeometry x="45" y="70" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-3" value="instrumentovat program&#xa;pro měření kritérií pokrytí" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;labelBackgroundColor=none;" edge="1" parent="O2XLXlmrljuVdYfjU7Fe-1" target="O2XLXlmrljuVdYfjU7Fe-2">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint x="-80" y="70" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-5" value=":TforcCov" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="O2XLXlmrljuVdYfjU7Fe-5">
+          <mxGeometry x="45" y="80" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-8" value="tforcov wrapper" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-6" target="O2XLXlmrljuVdYfjU7Fe-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="236" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-9" value="tforcov start" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-2" target="O2XLXlmrljuVdYfjU7Fe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="160" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-12" value="tforcov stop" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-2" target="O2XLXlmrljuVdYfjU7Fe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="220" as="sourcePoint" />
+            <mxPoint x="335.0000000000001" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="230" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-13" value="tforcov wrapper odstraněn" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-6" target="O2XLXlmrljuVdYfjU7Fe-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="190" as="targetPoint" />
+            <mxPoint x="345.0000000000001" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-14" value="clang++" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-2" target="O2XLXlmrljuVdYfjU7Fe-30">
+          <mxGeometry x="-0.3929" relative="1" as="geometry">
+            <mxPoint x="200" y="209.76" as="sourcePoint" />
+            <mxPoint x="360.0000000000001" y="209.76" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="245" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-15" value="instrumentovaný a přeložený program" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-30" target="O2XLXlmrljuVdYfjU7Fe-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="190" as="targetPoint" />
+            <mxPoint x="345.0000000000001" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-16" value=":clang++" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-17" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="O2XLXlmrljuVdYfjU7Fe-16">
+          <mxGeometry x="45" y="230" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-29" value=":TforcCovWrapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="O2XLXlmrljuVdYfjU7Fe-29">
+          <mxGeometry x="45" y="120" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-32" value=":TforcTool" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="O2XLXlmrljuVdYfjU7Fe-32">
+          <mxGeometry x="45" y="130" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-35" value=":TforcToolWrapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="O2XLXlmrljuVdYfjU7Fe-35">
+          <mxGeometry x="45" y="170" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-38" value="tforc-tool start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-30" target="O2XLXlmrljuVdYfjU7Fe-33">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="465" y="210" as="sourcePoint" />
+            <mxPoint x="575" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="210" />
+              <mxPoint x="470" y="210" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-40" value=":Tforc" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-41" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="O2XLXlmrljuVdYfjU7Fe-40">
+          <mxGeometry x="45" y="180" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-43" value="wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-30" target="O2XLXlmrljuVdYfjU7Fe-36">
+          <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="250" />
+              <mxPoint x="630" y="250" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-44" value="instrumentace" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-36" target="O2XLXlmrljuVdYfjU7Fe-41">
+          <mxGeometry x="-0.0993" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="260" />
+              <mxPoint x="720" y="260" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-46" value="instrumentovaný&#xa;LLVM IR kód" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-41" target="O2XLXlmrljuVdYfjU7Fe-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="260" as="targetPoint" />
+            <mxPoint x="465" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="760" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-47" value="instrumentovaný a přeložený programr" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-36" target="O2XLXlmrljuVdYfjU7Fe-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="275" as="targetPoint" />
+            <mxPoint x="805" y="275" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="640" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-49" value="překlad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-36" target="O2XLXlmrljuVdYfjU7Fe-17">
+          <mxGeometry x="-0.4762" y="10" relative="1" as="geometry">
+            <mxPoint x="680" y="290" as="sourcePoint" />
+            <mxPoint x="780" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="310" />
+              <mxPoint x="860" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-50" value="přeložený program" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-17" target="O2XLXlmrljuVdYfjU7Fe-36">
+          <mxGeometry x="0.4762" relative="1" as="geometry">
+            <mxPoint x="705" y="270" as="targetPoint" />
+            <mxPoint x="805" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="760" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-51" value="tforc-tool stop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-30" target="O2XLXlmrljuVdYfjU7Fe-33">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="475" y="220" as="sourcePoint" />
+            <mxPoint x="585" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="360" />
+              <mxPoint x="520" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-52" value="wrapper" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-33" target="O2XLXlmrljuVdYfjU7Fe-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="360" as="targetPoint" />
+            <mxPoint x="465" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2XLXlmrljuVdYfjU7Fe-53" value="wrapper odstraněn" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="O2XLXlmrljuVdYfjU7Fe-33" target="O2XLXlmrljuVdYfjU7Fe-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="240" as="targetPoint" />
+            <mxPoint x="585" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
