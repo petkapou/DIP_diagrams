@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T00:02:52.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.4.5" etag="yViI-sLhoKfLN4y5FyP1" type="github"><diagram id="Ni9uWXQ8qNGRNFq54FH3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-23T00:11:20.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="XjGakugik36JkzJ5wwva" version="16.4.5" type="github">
+  <diagram id="Ni9uWXQ8qNGRNFq54FH3" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-1" value="coverage:" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="115" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k1NI9f-fPOs62LW1hEcz-2" target="k1NI9f-fPOs62LW1hEcz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-2" value="m:[regex]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k1NI9f-fPOs62LW1hEcz-3" target="k1NI9f-fPOs62LW1hEcz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-3" value="m!:[regex]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k1NI9f-fPOs62LW1hEcz-4" target="k1NI9f-fPOs62LW1hEcz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-4" value="f!:[regex]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k1NI9f-fPOs62LW1hEcz-5" target="k1NI9f-fPOs62LW1hEcz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-5" value="f:[regex]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-7" value="modul vyhovující alespoň jednomu&lt;br&gt;regulárnímu výrazu m:[regex] je zahrnut" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="145" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-8" value="modul vyvyhovující alespoň jednomu&lt;br&gt;regulárnímu výrazu m!:[regex] je vyjmut" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="280" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-9" value="funkce vyhovující alespoň jednomu&lt;br&gt;regulárnímu výrazu f:[regex] je zahrnuta" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k1NI9f-fPOs62LW1hEcz-10" value="funkce vyhovující alespoň jednomu&lt;br&gt;regulárnímu výrazu f!:[regex] je vyjmuta" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
