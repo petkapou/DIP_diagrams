@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T12:39:48.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="eK9ZnM6Rm6joEILpqTSg" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-30T14:26:35.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="p8SOi5efllBtaWcg6dY6" version="16.5.2" type="github">
   <diagram id="PkoTO4GZKmc3V8IWVleu" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
             <mxPoint x="360" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5J12x8IQ41ZzSLyLn22b-4" value="Kritéria pokrytí" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5J12x8IQ41ZzSLyLn22b-4" value="Měření pokrytí" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
