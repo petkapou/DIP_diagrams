@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-30T16:14:06.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="2x6kF4neF38krzFl1TNJ" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-30T18:09:37.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="54KOl4C5RtuzR924d6_3" version="17.5.0" type="github">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -52,10 +52,10 @@
         <mxCell id="318fzTL56NjNgk1-DEGz-16" value="Vyhodnocení kritérií pokrytí" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="390" y="245" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="318fzTL56NjNgk1-DEGz-21" value="Logovací soubory zachycující běh programu" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="318fzTL56NjNgk1-DEGz-21" value="Logovací soubory zachycující běhy programu" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="365" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wex1mb7kt1AqzaQvMvRQ-3" value="Testování dokončeno" style="shape=hexagon;perimeter=hexagonPerimeter;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="wex1mb7kt1AqzaQvMvRQ-3" value="Kritéria pokrytí vyhodnocena" style="shape=hexagon;perimeter=hexagonPerimeter;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="370" y="380" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x6bshDRYsI94okJ-4vA8-1" value="CFG" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
