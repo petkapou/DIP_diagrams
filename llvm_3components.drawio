@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T14:40:05.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="mKjP1wv9dLI1n1BYIbb_" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T14:40:27.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="1BOpyV64VGLdGZHyPGCS" version="18.0.2" type="github">
   <diagram id="3hrDRNXKjOxmvs936XNe" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FWmKSJrcjIYoC9vwGYjs-5" value="Zdrojový kód" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="FWmKSJrcjIYoC9vwGYjs-1">
+        <mxCell id="FWmKSJrcjIYoC9vwGYjs-5" value="Source code" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="FWmKSJrcjIYoC9vwGYjs-1">
           <mxGeometry x="0.0909" y="-20" relative="1" as="geometry">
             <mxPoint x="100" y="310" as="targetPoint" />
             <mxPoint as="offset" />
@@ -16,7 +16,7 @@
         <mxCell id="FWmKSJrcjIYoC9vwGYjs-2" value="Optimizer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FWmKSJrcjIYoC9vwGYjs-4" value="Strojový kód" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FWmKSJrcjIYoC9vwGYjs-3">
+        <mxCell id="FWmKSJrcjIYoC9vwGYjs-4" value="Machine code" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FWmKSJrcjIYoC9vwGYjs-3">
           <mxGeometry y="20" relative="1" as="geometry">
             <mxPoint x="690" y="310" as="targetPoint" />
             <mxPoint as="offset" />
